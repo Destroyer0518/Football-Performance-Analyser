@@ -367,9 +367,11 @@ elif page == "Fetch Real Data (experimental)":
         st.warning("Network fetch is not implemented in this sample environment. Please upload CSVs or paste data. (In a deployed version we can implement fetching from specific URLs/APIs.)")
 
 # -------------------- Footer --------------------
-st.markdown(\"\"\"---
+# -------------------- Footer --------------------
+st.markdown("""
+---
 **Notes & next steps**
 - Added export options: CSV, Excel (multi-sheet), and PDF summary reports for teams and players.
 - PDF generation uses reportlab and creates simple, printable one-page summary reports.
 - If you'd like richer PDF reports (with charts embedded), I can add those next.
-\"\"\")
+""")
